@@ -1,5 +1,5 @@
 /**
- * Copyright 2012-2016 Craig Campbell
+ * Copyright 2012-2016 James Scott
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -58,7 +58,7 @@ let onHighlightCallback;
 
 /**
  * Counter for block ids
- * @see https://github.com/ccampbell/rainbow/issues/207
+ * @see https://github.com/jscott/rainbow/issues/207
  */
 let id = 0;
 
@@ -256,7 +256,7 @@ function _highlight(node, callback) {
     // I was originally checking instanceof Event but that made it break
     // when using mootools.
     //
-    // @see https://github.com/ccampbell/rainbow/issues/32
+    // @see https://github.com/jscott/rainbow/issues/32
     node = node && typeof node.getElementsByTagName === 'function' ? node : document;
 
     const preBlocks = node.getElementsByTagName('pre');
@@ -416,7 +416,7 @@ function color(...args) {
  *
  * For example if you want to have "coffee" map to "coffeescript"
  *
- * @see https://github.com/ccampbell/rainbow/issues/154
+ * @see https://github.com/jscott/rainbow/issues/154
  * @param {string} alias
  * @param {string} originalLanguage
  * @return {void}

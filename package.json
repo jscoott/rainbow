@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ccampbell/rainbow.git"
+    "url": "git://github.com/jscott/rainbow.git"
   },
   "keywords": [
     "code",
     "highlight",
     "highlighter"
   ],
-  "author": "Craig Campbell",
+  "author": "James Scott",
   "license": "Apache-2.0",
   "readmeFilename": "README.md",
   "devDependencies": {

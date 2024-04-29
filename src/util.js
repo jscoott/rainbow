@@ -145,7 +145,7 @@ export function replaceAtPosition(position, replace, replaceWith, code) {
     // This is needed to fix an issue where $ signs do not render in the
     // highlighted code
     //
-    // @see https://github.com/ccampbell/rainbow/issues/208
+    // @see https://github.com/jscott/rainbow/issues/208
     replaceWith = replaceWith.replace(/\$/g, '$$$$');
 
     return code.substr(0, position) + subString.replace(replace, replaceWith);

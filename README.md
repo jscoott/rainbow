@@ -112,7 +112,7 @@ Rainbow 2.0 should work in the following browsers:
 | ------ | ------- | --- | ------ |
 | 20+ | 13+ | 10+ | 6+ |
 
-For older browsers you can download the legacy [1.2.0](https://github.com/ccampbell/rainbow/archive/1.2.0.zip) release.
+For older browsers you can download the legacy [1.2.0](https://github.com/jscott/rainbow/archive/1.2.0.zip) release.
 
 ## Supported Languages
 
@@ -534,7 +534,7 @@ Rainbow is compiled using [rollup](https://github.com/rollup/rollup) and [buble]
 ### Getting a local environment set up
 
 ```shell
-git clone git@github.com:ccampbell/rainbow.git
+git clone git@github.com:jscott/rainbow.git
 cd rainbow
 npm install
 ```

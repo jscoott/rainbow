@@ -2,7 +2,7 @@
  * SQL Language
  *
  * @author Jan Navratil
- * @author Craig Campbell
+ * @author James Scott
  */
 Rainbow.extend('sql', [
     {

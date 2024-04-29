@@ -150,7 +150,7 @@
         // This is needed to fix an issue where $ signs do not render in the
         // highlighted code
         //
-        // @see https://github.com/ccampbell/rainbow/issues/208
+        // @see https://github.com/jscott/rainbow/issues/208
         replaceWith = replaceWith.replace(/\$/g, '$$$$');
 
         return code.substr(0, position) + subString.replace(replace, replaceWith);
@@ -623,7 +623,7 @@
 
     /**
      * Counter for block ids
-     * @see https://github.com/ccampbell/rainbow/issues/207
+     * @see https://github.com/jscott/rainbow/issues/207
      */
     var id = 0;
 
@@ -823,7 +823,7 @@
         // I was originally checking instanceof Event but that made it break
         // when using mootools.
         //
-        // @see https://github.com/ccampbell/rainbow/issues/32
+        // @see https://github.com/jscott/rainbow/issues/32
         node = node && typeof node.getElementsByTagName === 'function' ? node : document;
 
         var preBlocks = node.getElementsByTagName('pre');
@@ -990,7 +990,7 @@
      *
      * For example if you want to have "coffee" map to "coffeescript"
      *
-     * @see https://github.com/ccampbell/rainbow/issues/154
+     * @see https://github.com/jscott/rainbow/issues/154
      * @param {string} alias
      * @param {string} originalLanguage
      * @return {void}

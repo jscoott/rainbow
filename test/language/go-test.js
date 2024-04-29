@@ -30,13 +30,13 @@ export function testGo(t) {
         `import (
             "fmt",
             "log",
-            "github.com/ccampbell/clapp"
+            "github.com/jscott/clapp"
         )`,
 
         `<span class="keyword">import</span> (
             <span class="string">"fmt"</span>,
             <span class="string">"log"</span>,
-            <span class="string">"github.com/ccampbell/clapp"</span>
+            <span class="string">"github.com/jscott/clapp"</span>
         )`
     );
 

@@ -2,7 +2,7 @@
  * C patterns
  *
  * @author Daniel Holden
- * @author Craig Campbell
+ * @author James Scott
  */
 Rainbow.extend('c', [
     {

@@ -1,7 +1,7 @@
 /**
  * Javascript patterns
  *
- * @author Craig Campbell
+ * @author James Scott
  */
 Rainbow.extend('javascript', [
 
@@ -58,7 +58,7 @@ Rainbow.extend('javascript', [
     /**
      * matches any escaped characters inside of a js regex pattern
      *
-     * @see https://github.com/ccampbell/rainbow/issues/22
+     * @see https://github.com/jscott/rainbow/issues/22
      *
      * this was causing single line comments to fail so it now makes sure
      * the opening / is not directly followed by a *

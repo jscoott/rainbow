@@ -1,7 +1,7 @@
     /**
  * Generic language patterns
  *
- * @author Craig Campbell
+ * @author James Scott
  */
 Rainbow.extend('generic', [
     {
